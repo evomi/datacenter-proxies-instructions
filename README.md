@@ -1,5 +1,5 @@
 # Datacenter Proxies
-[![Evomi Datacenter Proxies Banner](https://my.evomi.com/images/brand/cta.png)]([https://my.evomi.com](https://evomi.com?utm_source=github&utm_medium=banner&utm_campaign=github_datacenter)
+[![Evomi Mobile Proxies Banner](https://my.evomi.com/images/brand/cta.png)]([https://my.evomi.com](https://evomi.com?utm_source=github&utm_medium=banner&utm_campaign=github_datacenter))
 
 Welcome to Evomi's Datacenter Proxies repository! This project demonstrates how to use our high-performance datacenter proxies in various programming languages.
 
