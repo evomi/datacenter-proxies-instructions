@@ -74,3 +74,6 @@ If you encounter any issues or have questions, please don't hesitate to contact 
 
 ## P.S.
 We are hiring (Sales and Developers)! Send us an email or contact us otherwise 🤫
+
+## License
+Apache License 2.0 - see [LICENSE](LICENSE) for details.
