@@ -16,7 +16,7 @@ const proxy = {
     host: 'dcp.evomi.com',
     port: 2000,
     auth: {
-        username: `customer-${proxyUsername}`,
+        username: proxyUsername,
         password: proxyPassword
     }
 };

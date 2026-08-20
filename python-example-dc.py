@@ -14,8 +14,8 @@ if not proxy_username or not proxy_password:
 
 # Set up the proxy
 proxy = {
-    "http": f"http://customer-{proxy_username}:{proxy_password}@dcp.evomi.com:2000",
-    "https": f"http://customer-{proxy_username}:{proxy_password}@dcp.evomi.com:2000"
+    "http": f"http://{proxy_username}:{proxy_password}@dcp.evomi.com:2000",
+    "https": f"http://{proxy_username}:{proxy_password}@dcp.evomi.com:2000"
 }
 
 try:

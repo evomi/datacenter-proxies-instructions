@@ -22,7 +22,7 @@ func main() {
 	}
 
 	// Set up the proxy URL
-	proxyURL, err := url.Parse(fmt.Sprintf("http://customer-%s:%s@dcp.evomi.com:2000", proxyUsername, proxyPassword))
+	proxyURL, err := url.Parse(fmt.Sprintf("http://%s:%s@dcp.evomi.com:2000", proxyUsername, proxyPassword))
 	if err != nil {
 		fmt.Println("Error parsing proxy URL:", err)
 		return

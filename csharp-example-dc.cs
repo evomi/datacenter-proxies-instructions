@@ -24,7 +24,7 @@ class CSharpExampleDC
             var proxy = new WebProxy
             {
                 Address = new Uri($"http://dcp.evomi.com:2000"),
-                Credentials = new NetworkCredential($"customer-{proxyUsername}", proxyPassword)
+                Credentials = new NetworkCredential(proxyUsername, proxyPassword)
             };
 
             var handler = new HttpClientHandler
