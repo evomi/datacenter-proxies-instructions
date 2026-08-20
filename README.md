@@ -19,7 +19,7 @@ export proxy_password=your_password
 Replace `your_username` and `your_password` with the credentials provided by Evomi.
 
 ## Protocol
-Please note, while these examples demonstrate the proxies with the http protocl, Evomi offers support for **HTTP HTTPS and SOCKS5**, aswell as SOCKS4 if required.
+Please note, while these examples demonstrate the proxies over HTTP, Evomi also supports HTTPS and SOCKS5.
 
 ## Usage Examples
 We provide example scripts in 6 different programming languages to help you get started quickly:
@@ -31,22 +31,22 @@ curl -x dcp.evomi.com:2000 -U "${proxy_username}:${proxy_password}" https://ip.e
 
 ### Python
 ```bash
-python python_example_dc.py
+python python-example-dc.py
 ```
 
 ### Node.js
 ```bash
-node nodejs_example_dc.js
+node nodejs-example-dc.js
 ```
 
 ### PHP
 ```bash
-php php_example_dc.php
+php php-example-dc.php
 ```
 
 ### Go
 ```bash
-go run go_example_dc.go
+go run go-example-dc.go
 ```
 
 ### Java
