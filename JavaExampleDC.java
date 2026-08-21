@@ -28,7 +28,7 @@ public class JavaExampleDC {
             Authenticator.setDefault(new Authenticator() {
                 @Override
                 protected PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication("customer-" + proxyUsername, proxyPassword.toCharArray());
+                    return new PasswordAuthentication(proxyUsername, proxyPassword.toCharArray());
                 }
             });
 
